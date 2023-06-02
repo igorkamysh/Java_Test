@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fd7f15e-8e60-4902-b475-4036444c5e6b" name="Changes" comment="Commit 3">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="6fd7f15e-8e60-4902-b475-4036444c5e6b" name="Changes" comment="Commit 5">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/pipe.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pipe.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685681704038</updated>
       <workItem from="1685681705231" duration="17000" />
-      <workItem from="1685681736781" duration="928000" />
+      <workItem from="1685681736781" duration="1368000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1685681786678</created>
@@ -80,7 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685682388829</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit 4">
+      <created>1685682672261</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685682672261</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Commit 5">
+      <created>1685682729099</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685682729099</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +115,8 @@
     <MESSAGE value="Commit" />
     <MESSAGE value="Commit 2" />
     <MESSAGE value="Commit 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 3" />
+    <MESSAGE value="Commit 4" />
+    <MESSAGE value="Commit 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 5" />
   </component>
 </project>

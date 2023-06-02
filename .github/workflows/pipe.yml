@@ -21,3 +21,8 @@ jobs:
         cache: maven
     - name: Build 
       run: mvn -B package --file pom.xml
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: artifact_java.jar
+        path: target/Java_Test-1.0-SNAPSHOT.jar
