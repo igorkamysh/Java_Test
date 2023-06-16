@@ -8,3 +8,4 @@ COPY .mvn/ .mvn
 COPY mvnw pom.xml ./
 RUN mvn -B package --file pom.xml
 
+CMD ["java", "-jar", "/app/my-application.jar"]
