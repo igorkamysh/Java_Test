@@ -8,6 +8,3 @@ COPY .mvn/ .mvn
 COPY mvnw pom.xml ./
 RUN mvn -B package --file pom.xml
 
-COPY src ./src
-
-CMD ["./mvnw", "spring-boot:run"]
