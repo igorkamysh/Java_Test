@@ -40,7 +40,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t igorkamysh/21pi-2-java-test
+        run: docker build igorkamysh/21pi-2-java-test
 
       - name: Push Docker image
         run: docker push igorkamysh/21pi-2-java-test
