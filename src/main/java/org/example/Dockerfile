@@ -1,11 +1,18 @@
-# syntax=docker/dockerfile:1
+FROM openjdk:11-jdk
 
-FROM eclipse-temurin:17-jdk-jammy
+# Установка Maven
+RUN apt-get update && \
+    apt-get install -y maven && \
+    rm -rf /var/lib/apt/lists/*
 
+# Копирование исходного кода приложения в образ
+COPY . /app
+
+# Установка рабочей директории
 WORKDIR /app
 
-COPY .mvn/ .mvn
-COPY mvnw pom.xml ./
-RUN mvn -B package --file pom.xml
+# Сборка приложения с помощью Maven
+RUN mvn clean package
 
-CMD ["java", "-jar", "/app/my-application.jar"]
+# Определение точки входа в приложение
+ENTRYPOINT ["java", "-jar", "/app/target/<your-jar-file>.jar"]
