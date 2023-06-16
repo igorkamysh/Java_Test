@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fd7f15e-8e60-4902-b475-4036444c5e6b" name="Changes" comment="Commit 7">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6fd7f15e-8e60-4902-b475-4036444c5e6b" name="Changes" comment="Commit 8" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +38,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "Docker",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -65,7 +63,7 @@
       <updated>1685681704038</updated>
       <workItem from="1685681705231" duration="17000" />
       <workItem from="1685681736781" duration="1368000" />
-      <workItem from="1686858524556" duration="2084000" />
+      <workItem from="1686858524556" duration="2422000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1685681786678</created>
@@ -109,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686890057459</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Commit 8">
+      <created>1686890450406</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686890450406</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +138,8 @@
     <MESSAGE value="Commit 4" />
     <MESSAGE value="Commit 5" />
     <MESSAGE value="Commit 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 7" />
+    <MESSAGE value="Commit 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
